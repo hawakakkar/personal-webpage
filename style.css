@@ -1,0 +1,102 @@
+/*The page Style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: bisque;
+  margin: 0;
+  padding: 20px;
+  text-align: left;
+}
+/*The Heading */
+    h1 {
+    font-size: 2em
+    font-weight: bold;
+    text-align: center;
+}
+    h2 {
+    margin-top: 30px;
+    font-size: 1em;
+}
+
+/*The Sections*/
+.Introduction {
+  background: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px;
+}
+.activity{
+    text-align: center;
+}
+
+/*Image*/
+.image {
+  width: 100%;
+  height: 500px;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,2);
+  display: block;
+  margin: auto;
+}
+figure img{
+    width: 100%;
+    height: 500px;
+    object-fit:cover;
+    display: block;
+}
+figcaption{
+    text-align: center;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/*lists*/
+ul,ol{
+    text-align: left;
+    display: inline-block;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    background-color: lightblue;
+    color:black;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/*Forms*/
+.form {
+    display: flex;
+    align-items: center;
+    gap:10px;
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+}
+button {
+    padding: 10px 20px;
+    background: purple;
+    color:white;
+    border:none;
+    border-radius: 5px;
+}
+/*Hover Effect*/
+button:hover{
+    background:black;
+    color: white;
+}
+#fun-fact{
+    position: relative;
+}
+
+footer {
+    margin-top: 40px;
+    font-weight: bold;
+
+}
